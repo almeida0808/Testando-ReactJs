@@ -1,6 +1,10 @@
-export function Details(){
-    return(
-    <h1>Hello</h1>
-    
-    )
+import { Container } from "./styles";
+import { Header } from "../../components/Header";
+
+export function Details() {
+  return (
+    <Container>
+        <Header/>
+    </Container>
+  );
 }

@@ -1,9 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {Home} from './pages/Details/index'
+import {Details} from './pages/Details'
+import {ThemeProvider} from "styled-components"
+import theme from "./styles/temas"
+import GlobalStyle from "./styles/global"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Home/>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle/>
+    <Details/>
+    </ThemeProvider>
   </React.StrictMode>,
 )
