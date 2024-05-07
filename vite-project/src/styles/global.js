@@ -18,7 +18,8 @@ font-family: "Roboto Slab", sans-serif;
 color: ${({ theme }) => theme.COLORS.WHITE}; ;
 
 button:hover{
-filter: brightness(2);
+filter: brightness(0.8);
+cursor: pointer;
 }
 }
 

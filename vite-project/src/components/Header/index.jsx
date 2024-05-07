@@ -1,7 +1,7 @@
 import { Profile, Container } from "./styles";
 import { FaPowerOff } from "react-icons/fa6";
 
-export function Header() {
+export function Header({name, }) {
   return (
     <Container>
       <Profile>
