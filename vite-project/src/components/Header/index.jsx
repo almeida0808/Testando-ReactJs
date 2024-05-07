@@ -1,4 +1,5 @@
 import { Profile, Container } from "./styles";
+import { FaPowerOff } from "react-icons/fa6";
 
 export function Header() {
   return (
@@ -15,7 +16,8 @@ export function Header() {
       </Profile>
 
       <button>
-        <p>X</p>
+      <FaPowerOff />
+
       </button>
     </Container>
   );

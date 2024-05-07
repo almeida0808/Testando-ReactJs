@@ -9,6 +9,7 @@ font-size: 62.5%;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.6rem;
+  
 } 
 
 body{
@@ -16,7 +17,9 @@ background: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 font-family: "Roboto Slab", sans-serif;
 color: ${({ theme }) => theme.COLORS.WHITE}; ;
 
-
+button:hover{
+filter: brightness(2);
+}
 }
 
  `;

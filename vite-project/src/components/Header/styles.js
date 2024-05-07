@@ -4,7 +4,18 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 2rem 11rem;
+  padding: 2rem 4rem;
+
+  border-bottom: 1px solid ${({theme}) => theme.COLORS.BACKGROUND_700};
+  >button{
+    background: none;
+    border: none;
+
+    svg{
+      font-size: 3.6rem;
+      color: ${({theme}) => theme.COLORS.GRAY_300};
+    }
+  }
 `;
 
 export const Profile = styled.div`
@@ -12,7 +23,7 @@ export const Profile = styled.div`
   align-items: center;
 
   > img {
-    width: 7rem;
+    width: 6.4rem;
     border-radius: 50%;
     margin-right: 1rem;
   }
@@ -28,4 +39,6 @@ export const Profile = styled.div`
       font-size: 1.8rem;
     }
   }
+
+
 `;
