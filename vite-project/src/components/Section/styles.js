@@ -7,7 +7,7 @@ export const Container = styled.section`
     margin-bottom: 2.4rem;
 
     color: ${({ theme }) => theme.COLORS.GRAY_100};
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: 500;
 
     border-bottom-width: 1px;

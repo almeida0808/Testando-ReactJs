@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  font-family: "Sedgwick Ave Display";
   justify-content: center;
 
   span {
+    font-family: "Sedgwick Ave Display";
     font-size: 3.2rem;
     font-weight: 300;
   }
