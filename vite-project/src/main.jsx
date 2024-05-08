@@ -5,12 +5,13 @@ import { Home } from './pages/Home'
 import {ThemeProvider} from "styled-components"
 import theme from "./styles/temas"
 import GlobalStyle from "./styles/global"
+import { NewCar } from './pages/NewCar'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle/>
-      <Home/>
+      <NewCar/>
     </ThemeProvider>
   </React.StrictMode>,
 )
