@@ -2,7 +2,7 @@ import { Container } from "./styles";
 
 export function Logo() {
   return (
-    <Container>
+    <Container className="logo">
      <span className="green">Bra</span>
      <span className="yellow">zi</span>
      <span className="blue">lia</span>

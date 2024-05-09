@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-  color: ${({ theme }) => theme.COLORS.GREEN};
+  color: ${({ theme }) => theme.COLORS.GRAY_100};
   background: none;
   border: none;
   font-family: "Schoolbell", cursive;
