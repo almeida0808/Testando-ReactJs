@@ -1,6 +1,5 @@
-exports.up = (
-  knex // função de adicionar tabela
-) =>
+// função de adicionar tabela
+exports.up = (knex) =>
   knex.schema.createTable("users", (table) => {
     // função do knex para criar tabelas , primeiro parametro é o nome da tabela, segundo são uma função que especifica cada coluna da tabela, ou seja nforma qual tipo , qual nome de cada coluna.
 
@@ -8,7 +7,10 @@ exports.up = (
 
     // campos do tipo text
     table.text("name");
-    table.text("avatar");
+    table.text("email");
+    table.text("password");
+
+    table.text("avatar"); // inicia  como null
 
     //informa quando o usuário foi criado
     table.timestamp("created_at").default(knex.fn.now());

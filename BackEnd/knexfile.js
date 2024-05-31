@@ -7,7 +7,6 @@ module.exports = {
       filename: path.resolve(__dirname, "src", "database", "database.db"),
     },
     migrations: {
-      // informa o local aonde vai ser guardada as migrations
       directory: path.resolve(
         __dirname,
         "src",
@@ -16,6 +15,6 @@ module.exports = {
         "migrations"
       ),
     },
+    useNullAsDefault: true,
   },
-  useNullAsDefault: true,
 };
